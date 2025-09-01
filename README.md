@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nitin Pratap</h1>
 <h3 align="center">A passionate AI/ML & Backend DEV.. from India</h3>
 
-<img align="right" alt="coding" width="400" src="download(1).png">
+<img align="right" alt="coding" width="400" src="./download(1).png">
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nitinpratap22061&label=Profile%20views&color=0e75b6&style=flat" alt="nitinpratap22061" /> </p>
