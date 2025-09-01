@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi 👋, I'm Nitin Pratap</h1>
 <h3 align="center">A passionate AI/ML & Backend DEV.. from India</h3>
 
@@ -17,7 +16,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/nitin pratap" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nitin pratap" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/npc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="npc" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/npcd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="npcd" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -28,4 +27,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nitinpratap22061&show_icons=true&locale=en" alt="nitinpratap22061" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nitinpratap22061&" alt="nitinpratap22061" /></p>
-
