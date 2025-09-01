@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nitin Pratap</h1>
-<h3 align="center">A passionate AI/ML & Backend DEV.. from India</h3>
+<h3 align="center">A passionate AI/ML & Backend developer.. from India</h3>
 
 <img align="right" alt="coding" width="400" src="./coding.png">
 
