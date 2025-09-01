@@ -2,8 +2,8 @@ name: generate-pacman-contribution-graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight UTC
-  workflow_dispatch:       # allows manual run
+    - cron: "0 0 * * *"   # run daily at midnight UTC
+  workflow_dispatch:       # allow manual run
 
 jobs:
   build:
@@ -14,12 +14,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Pacman Graph
-        uses: Ashutosh00710/github-readme-activity-graph@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          USERNAME: Nitinpratap22061
-          THEME: pacman
-          OUTPUT_PATH: output/pacman-contribution-graph.svg
+          node-version: 16
+
+      - name: Clone activity graph generator
+        run: git clone https://github.com/Ashutosh00710/github-readme-activity-graph.git generator
+
+      - name: Install dependencies
+        run: cd generator && npm install
+
+      - name: Generate Pacman Graph
+        run: |
+          cd generator
+          node ./index.js --username Nitinpratap22061 --theme pacman --hide_border true --output ../output/pacman-contribution-graph.svg
 
       - name: Commit and Push
         run: |
