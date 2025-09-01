@@ -1,19 +1,4 @@
-github profile markdown generator logo
-GitHub Profile README Generator
-Star this repo
-23361
-Fork on GitHub
-7936
 
-back to edit
-
-copy-markdown
-
-download markdown
-
-download backup
-
-preview
 <h1 align="center">Hi 👋, I'm Nitin Pratap</h1>
 <h3 align="center">A passionate AI/ML & Backend DEV.. from India</h3>
 
