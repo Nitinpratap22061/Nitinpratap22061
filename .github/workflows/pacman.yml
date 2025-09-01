@@ -1,8 +1,8 @@
-name: generate-pacman-contribution-graph
+name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # run daily at midnight UTC
+    - cron: "0 0 * * *"   # run daily
   workflow_dispatch:       # allow manual run
 
 jobs:
@@ -14,21 +14,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Generate Pacman graph
+        uses: Platane/snk@v3
         with:
-          node-version: 16
-
-      - name: Clone activity graph generator
-        run: git clone https://github.com/Ashutosh00710/github-readme-activity-graph.git generator
-
-      - name: Install dependencies
-        run: cd generator && npm install
-
-      - name: Generate Pacman Graph
-        run: |
-          cd generator
-          node ./index.js --username Nitinpratap22061 --theme pacman --hide_border true --output ../output/pacman-contribution-graph.svg
+          github_user_name: Nitinpratap22061
+          outputs: |
+            ./output/pacman-contribution-graph.svg?palette=github-dark&color_snake=yellow&mode=Pac-Man
+            ./output/pacman-contribution-graph-dark.svg?palette=github-dark&color_snake=yellow&mode=Pac-Man
 
       - name: Commit and Push
         run: |
